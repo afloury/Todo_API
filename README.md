@@ -30,7 +30,7 @@ Run main.py
 
 In terminal
 ```
-python monscript.py
+python main.py
 ```
 Access by :
 ```
