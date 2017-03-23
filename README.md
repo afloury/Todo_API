@@ -13,11 +13,12 @@ Flask : http://flask.pocoo.org/
 CORS : https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
 
 Exemple in local (unix environment)
-```
+
 • To cleanly manage dependencies in Python, let's
 create a virtual environment
 
-mkdir TODO_API ; cd TODO_API
+In project directory (Todo_API-master), do :
+```
 virtualenv venv
 source ./venv/bin/activate
 echo "Flask" > requirements.txt ; echo "flask-cors" >> requirements.txt
